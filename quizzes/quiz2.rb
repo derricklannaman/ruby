@@ -1,16 +1,14 @@
 require 'pry'
-total = (250..260).to_a
-
-total
-
-total.inject do |sum,x|
-				 sum + x 
-				 puts sum
-			end
+num = (250..260).to_a
+total = 0
+num.each do |sum|
+				 total = sum + total 
+				
+				end
 
 puts "the total is = #{total}"		
 
-binding.pry
+# binding.pry
 
 #part 2
 
@@ -28,9 +26,9 @@ while response != "q"
 
 end
 
-if response == "q"
-	puts "Thanks for playing"
-end	
+# if response == "q" 
+# 	puts "Thanks for playing"
+# end	
 
 puts colors 
 
