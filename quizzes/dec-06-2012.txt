@@ -1,0 +1,17 @@
+1. 
+
+2. a stack frame is a data structure that stores info about the active subroutines of a computer program. It resembles a stack of plates where you put to the top of the stack and pop off the top of the stack.
+
+3. A set is a list of things where each item in it is unique. 
+
+4. Big O notation is growth rate of time as items are added to a function
+
+5. The Big O notation of bubble sort is linear, or O(n).
+
+6. You construct a dbl linked list by assigning a links to each side of nodes
+
+7. 1 million people in nyc
+	avg # of pizza eaten per year per person
+	answer = 1 mill * avg
+	
+ 

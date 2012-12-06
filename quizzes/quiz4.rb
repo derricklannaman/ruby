@@ -3,38 +3,37 @@ require 'pry'
 # prompt user to enter a num or quit
 
 puts "Enter a (n)umber or (q)uit"
-response = gets.to_i
+response = gets.chomp
 
 	# create array called numbers
 	numbers = []
 
-if response == 'q'
-	puts "game over"
-end
 
 while response != "q"
 
-	# add num to num array
-	numbers << response
+	# add num to nums array
+	numbers << response.to_i
 
 
 	puts "Enter a (n)umber or (q)uit"
-	response = gets.to_i
+	response = gets.chomp
 		
-binding.pry	
+
 end
+
+	puts "game over"
 
 def square(num)
 	num ** num	
 end
-
 	# create another array --use map--
-	numbers.map do |num|
-		new_array = num.square		
-	end
+new_array = numbers.map { |num|	square(num) }		
+end
+
+
 
 puts numbers
 puts new_array 	
 
-
+binding.pry
 
