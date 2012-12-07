@@ -1,0 +1,14 @@
+1. html (hypertext markup language)is the basic structure/backbone of the web that allows text to be rendered in an organized way
+
+Sass allows for users to nest the their css selectors, provide variables and mixins providing a clearer, better formatted code.
+var person = Person.new
+JSON is Javascript Object Notation which provides human readable data that machines use to communicate with each other
+$(function(){lets the browser load the entire page before any js is allowed to run});
+(global var) are placed at top of file, (local)var name = "whatever"
+classes are blueprints for creating objects and objects are instances of a class
+inheritance is the ability of an object to obtain the attributes of its parent class
+a hash is a unordered list of key/value pairs and an array is a index order list
+choose a hash to get instant access of a keys value, use an array if you need ordered structure thru the index
+datastructure = list, set, queue, stack, arrays, hashes
+if Chicago has 100k piano players, and 35% own pianos, then there are 35K pianos in Chicago
+manhole covers are round so they can be put back on easily regardless of direction
